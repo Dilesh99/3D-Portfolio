@@ -42,6 +42,10 @@ import heritagelink from "./heritagelink.png";
 import cinecshuttle from "./cinecshuttle.png";
 import appleweb from "./appleweb.png";
 import ecommercesite from "./ecommercesite.png";
+import livedocs from "./livedocs.png";
+import carevenfresh from "./carevenfresh.png";
+import flixmovies from "./flixmovies.png";
+import subscription from "./subscription.png";
 
 export {
   logo,
@@ -83,5 +87,9 @@ export {
   heritagelink,
   cinecshuttle,
   appleweb,
-  ecommercesite
+  ecommercesite,
+  livedocs,
+  carevenfresh,
+  flixmovies,
+  subscription,
 };

@@ -35,6 +35,10 @@ import {
   cinecshuttle,
   appleweb,
   heritagelink,
+  livedocs,
+  carevenfresh,
+  flixmovies,
+  subscription,
 } from "../assets";
 
 export const navLinks = [
@@ -65,15 +69,16 @@ const services = [
     title: "Front-end Developer",
     icon: mobile,
   },
-  /*
+  
   {
     title: "Backend Developer",
     icon: backend,
   },
+  
   {
-    title: "Content Creator",
+    title: "Full Stack Developer",
     icon: creator,
-  },*/
+  },
 ];
 
 const technologies = [
@@ -116,20 +121,20 @@ const technologies = [
   {
     name: "Php",
     icon: php,
-  },/*
+  },
   {
     name: "Java",
     icon: java,
-  },*/
+  },
   {
     name: "MySQL",
     icon: mysql,
 
-  },
+  },/*
   {
     name: "Three JS",
     icon: threejs,
-  },/*
+  },
   {
     name: "git",
     icon: git,
@@ -329,6 +334,162 @@ const projects = [
     image: ecommercesite,
     source_code_link: "https://github.com/Dilesh99/First-next.js-project",
   },
+  {
+    name: "Livedocs",
+    description:
+      "A responsive collaborative documantation platform with live interaction features. ",
+    tags: [
+      {
+        name: "nextjs",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "shadcnUI ",
+        color: "green-text-gradient",
+      },
+      {
+        name: "tailwindcss",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "typescript",
+        color: "orange-text-gradient",
+      },
+      {
+        name: "jsm editor",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Clerk ",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Liveblocks",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "Liveblocks-authentication",
+        color: "orange-text-gradient",
+      },
+    ],
+    image: livedocs,
+    source_code_link: "https://github.com/Dilesh99/Livedocs",
+  },
+  {
+    name: "Careven Fresh bakery & pastry shop web application",
+    description:
+      "A responsive user friendly web application for a bakery and pastry shop. ",
+    tags: [
+      {
+        name: "nextjs",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "shadcnUI",
+        color: "green-text-gradient",
+      },
+      {
+        name: "tailwindcss",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "typescript",
+        color: "orange-text-gradient",
+      },
+      {
+        name: "javascript",
+        color: "blue-text-gradient",
+      },
+    ],
+    image: carevenfresh,
+    source_code_link: "https://github.com/Dilesh99/Caraven-Fresh-web-application",
+  },
+  {
+    name: "Flixmovies",
+    description:
+      "A responsive user friendly movie website where users can search and get their favorite movies",
+    tags: [
+      {
+        name: "react + vite",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "tailwindcss",
+        color: "green-text-gradient",
+      },
+      {
+        name: "javascript",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "appwrite",
+        color: "orange-text-gradient",
+      },
+      
+    ],
+    image: flixmovies,
+    source_code_link: "https://github.com/Dilesh99/Flixmovies",
+  },
+  {
+    name: "Subscription-Tracker-API",
+    description:
+      "An API for a subscription tracker app. It allows users to create, update, and delete subscriptions and send subscription renewal reminders via email.",
+    tags: [
+      {
+        name: "nodejs",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "expressjs",
+        color: "green-text-gradient",
+      },
+      {
+        name: "mongodb",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "mongoose",
+        color: "orange-text-gradient",
+      },
+      {
+        name: "upstash",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "arcjet",
+        color: "green-text-gradient",
+      },
+      {
+        name: "JWT authentication",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "bcryptjs",
+        color: "orange-text-gradient",
+      },
+      {
+        name: "salt",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "arcjet",
+        color: "green-text-gradient",
+      },
+      {
+        name: "dayjs",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "nodemailer",
+        color: "orange-text-gradient",
+      },
+      
+    ],
+    image: subscription,
+    source_code_link: "https://github.com/Dilesh99/Subscription-Tracker-API",
+  },
+
+  
 ];
 
 export { services, technologies, experiences, testimonials, projects };

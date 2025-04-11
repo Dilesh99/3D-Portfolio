@@ -39,10 +39,9 @@ const About = () => {
       <h2 className={styles.sectionHeadText}>Overview.</h2>    
     </motion.div >
     <motion.p variants={fadeIn("", "", 0.1, 1)} className='mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]'>
-      I am a skilled software developer with experience in creating and maintaining web applications using React.js and Next.js. And 
-      I also have a strong understanding of HTML, CSS, JavaScript, TypeScript and expertise in React, Next.js, Tailwind CSS, Material UI, Git, Figma and Node.js as well.
+    I am a proficient Full Stack Developer with experience in designing, developing, and maintaining dynamic web applications. Skilled in both frontend and backend technologies, I specialize in React.js, Next.js, and Node.js, with a strong foundation in HTML, CSS, JavaScript, and TypeScript. 
       <br></br>
-      I have a passion for creating visually appealing and user-friendly responsive websites that provide a seamless experience for users. I am a quick learner and a team player who is always looking to improve my skills and knowledge in the field of software development.
+      My expertise extends to UI frameworks like Tailwind CSS, ShadcnUI and Material UI, version control with Git, and design collaboration using Figma. Additionally, I have strong experience in database management, working with MySQL, PostgreSQL and Firebase to design efficient and scalable data storage solutions. With a deep understanding of modern development practices, I build high-performance, secure, and user-friendly applications."
     </motion.p>
     <div className='mt-20 flex flex-wrap gap-10'>
       {services.map((service, index) => (
